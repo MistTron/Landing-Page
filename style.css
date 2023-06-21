@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "roboto";
+    src: url('./Fonts/Roboto-Regular.ttf');
+    
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url('./Fonts/Roboto-Black.ttf');
+    
+}
+
+body {
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+
+ .Header {
+    display: flex;
+    padding: 18px;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    color: #F9FAF8;
+    gap: 16px;
+}
+
+.Main {
+    display: flex;
+    color: #F9FAF8;
+    padding: 64px;
+    flex-direction: row;
+    margin: 0;
+    gap: 16px;
+    flex-wrap: wrap-reverse;
+}
+
+ul .logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-family: "roboto-bold", sans-serif;
+}
+
+.aws {
+    display: flex;
+    font-size: 48px;
+    font-family: "roboto-bold", sans-serif;
+}
+
+.Main .button {
+    min-width: 110px;
+    padding: 10px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    border: 0;
+}
+
+.main2 {
+    
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #2b5793;
+}
+img {
+    min-width: 250px;
+    max-width: 250px;
+    width: 350px;
+    flex: auto;
+    border-radius: 10px;
+
+}
+
+.headerbg {
+    background-color: #1F2937;
+
+}
+
+.center {
+    width: 70%;
+    margin: auto;
+}
+
+.middle, .middle2, .middle3, .middle4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0;
+    gap: 16px;
+}
+
+.middle2 {
+    
+}
+
+.middle3 {
+    
+}
+
+.middle4 {
+    
+}
+
+.container2 img {
+    min-width: 150px;
+    max-width: 150px;
+    height: 150px;
+    border: 5px #3882F6 solid;
+    border-radius: 10px;
+    flex: auto;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cardtext {
+    flex: 1;
+    word-wrap: break-word;
+}
+
+.info {
+    font-family: "roboto-bold";
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.main2 p {
+    word-wrap: break-word;
+    max-width: 450px;
+}
+
+.zied {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    
+}
